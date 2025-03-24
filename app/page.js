@@ -6,7 +6,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center min-h-screen text-center bg-gray-900 text-white px-6">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
-          Hi, I'm <span className="text-blue-500">Dwiki Putra</span>
+          Hi, I&apos;m <span className="text-blue-500">Dwiki Putra</span>
         </h1>
         <p className="text-lg md:text-xl text-gray-300 max-w-2xl">
           I’m a passionate <span className="text-blue-400">Web Developer</span> specializing in
