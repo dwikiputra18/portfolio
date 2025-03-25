@@ -1,4 +1,5 @@
 import Projects from "./components/Projects";
+import About from "./components/About";
 
 export default function Home() {
   return (
@@ -21,7 +22,8 @@ export default function Home() {
           </a>
         </div>
       </section>
-
+      {/* About Section */}
+      <About />
       {/* Project Section */}
       <Projects />
     </main>

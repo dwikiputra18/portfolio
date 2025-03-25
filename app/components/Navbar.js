@@ -40,16 +40,16 @@ export default function Navbar() {
             </button>
           </div>
           <ul className={`md:flex space-x-6 hidden ${isScrolled ? 'text-white' : 'text-black'}`}>
-            <li><Link href="/about">About</Link></li>
-            <li><Link href="/services">Project</Link></li>
-            <li><Link href="/contact">Contact</Link></li>
+            <li><Link href="#about">About</Link></li>
+            <li><Link href="#projects">Projects</Link></li>
+            <li><Link href="#contact">Contact</Link></li>
           </ul>
         </div>
         {isOpen && (
           <ul className="md:hidden bg-white p-4 space-y-2 text-black">
-            <li><Link href="/about" onClick={() => setIsOpen(false)}>About</Link></li>
-            <li><Link href="/services" onClick={() => setIsOpen(false)}>Services</Link></li>
-            <li><Link href="/contact" onClick={() => setIsOpen(false)}>Contact</Link></li>
+            <li><Link href="#about" onClick={() => setIsOpen(false)}>About</Link></li>
+            <li><Link href="#projects" onClick={() => setIsOpen(false)}>Projects</Link></li>
+            <li><Link href="#contact" onClick={() => setIsOpen(false)}>Contact</Link></li>
           </ul>
         )}
       </nav>
