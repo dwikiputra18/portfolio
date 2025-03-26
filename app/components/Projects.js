@@ -4,7 +4,7 @@ export default function Projects() {
         title: "Monstreation Website",
         description: "Developing Monstreation's profile website to showcase products and services.",
         image: "/images/monstre.png",
-        link: "https:/monstreatoin.com",
+        link: "https://monstreatoin.com",
       },
       {
         title: "Inventory Management System",
