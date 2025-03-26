@@ -1,5 +1,6 @@
 import Projects from "./components/Projects";
 import About from "./components/About";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -26,6 +27,8 @@ export default function Home() {
       <About />
       {/* Project Section */}
       <Projects />
+      {/* Contact Section */}
+      <Contact />
     </main>
   );
 }
