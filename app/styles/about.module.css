@@ -1,0 +1,27 @@
+@keyframes fadeLeft {
+    0% { opacity: 0; transform: translateX(-50px); }
+    100% { opacity: 1; transform: translateX(0); }
+  }
+  
+  @keyframes fadeRight {
+    0% { opacity: 0; transform: translateX(50px); }
+    100% { opacity: 1; transform: translateX(0); }
+  }
+  
+  .fadeLeft {
+    opacity: 1;
+    transform: translateX(0);
+    animation: fadeLeft 1s ease-out;
+  }
+  
+  .fadeRight {
+    opacity: 1;
+    transform: translateX(0);
+    animation: fadeRight 1s ease-out;
+  }
+  
+  .hidden {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  

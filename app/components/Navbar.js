@@ -39,7 +39,7 @@ export default function Navbar() {
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
-          <ul className={`md:flex space-x-6 hidden ${isScrolled ? 'text-white' : 'text-black'}`}>
+          <ul className={`md:flex space-x-6 hidden ${isScrolled ? 'text-gray-200' : 'text-black'}`}>
             <li><Link href="#about">About</Link></li>
             <li><Link href="#projects">Projects</Link></li>
             <li><Link href="#contact">Contact</Link></li>
