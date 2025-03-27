@@ -56,10 +56,10 @@ const Contact = () => {
               <a href="mailto:dwikiputra1894@gmail.com" className="text-blue-600 text-2xl">
                 <FaEnvelope />
               </a>
-              <a href="tel:+1234567890" className="text-blue-600 text-2xl">
+              <a href="tel:+6285974727274" className="text-blue-600 text-2xl">
                 <FaPhone />
               </a>
-              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="text-blue-600 text-2xl">
+              <a href="https://linkedin.com/in/muhammaddwikiputra" target="_blank" rel="noopener noreferrer" className="text-blue-600 text-2xl">
                 <FaLinkedin />
               </a>
             </div>
