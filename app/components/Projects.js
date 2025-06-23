@@ -19,7 +19,7 @@ export default function Projects() {
     {
       title: "Portfolio Website",
       description: "My personal portfolio showcasing my projects and skills.",
-      image: "/images/portfolio.png",
+      image: "/images/portfolio.PNG",
       link: "https://portfolio-dwk.vercel.app/",
     },
   ];
