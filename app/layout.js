@@ -18,6 +18,9 @@ export const metadata = {
   title: "Portfolio",
   description: "A portfolio website built with Next.js and Tailwind CSS.",
   icons: "/images/logo.png",
+  verification: {
+    google: 'z4f6vJesJ8XI6ApyiP5Ilqv4SucIGMKWf1Dxj5IVgn0',
+  },
 };
 
 export default function RootLayout({ children }) {
