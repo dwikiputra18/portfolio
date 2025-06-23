@@ -11,16 +11,16 @@ export default function Projects() {
       link: "https://monstreation.com",
     },
     {
-      title: "Inventory Management System",
-      description: "An inventory tracking system using Laravel, React, and MySQL.",
-      image: "/images/inventory.png",
-      link: "https://your-inventory-system.com",
+      title: "Bali Divine Tours",
+      description: "A travel agency website for booking tours in Bali.",
+      image: "/images/bali.jpg",
+      link: "https://balidivinetour.com",
     },
     {
       title: "Portfolio Website",
       description: "My personal portfolio showcasing my projects and skills.",
       image: "/images/portfolio.png",
-      link: "https://your-portfolio.com",
+      link: "https://portfolio-dwk.vercel.app/",
     },
   ];
 
