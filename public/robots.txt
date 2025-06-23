@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://portfolio-dwk.vercel.app
+
+# Sitemaps
+Sitemap: https://portfolio-dwk.vercel.app/sitemap.xml
