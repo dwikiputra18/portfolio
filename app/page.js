@@ -28,7 +28,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Dwiki Putra | Web Developer Portfolio",
     description: "Lihat karya dan projek terbaik Dwiki Putra, Web Developer spesialis Next.js, React, dan Laravel.",
-    creator: "@yourtwitter",
+    creator: "@dwikiputra18",
     images: ["https://portfolio-dwk.vercel.app/logo.png"],
   },
 };
