@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState, useRef } from "react";
+import Image from "next/image";
 import styles from "../styles/project.module.css";
 
 export default function Projects() {
@@ -89,9 +90,11 @@ export default function Projects() {
               key={project.id}
               className={`${styles.projectCard} ${isVisible ? styles.visible : ""}`}
             >
-              <img 
+              <Image 
                 src={project.image} 
-                alt={project.title} 
+                alt={project.title}
+                width={1200}
+                height={600}
                 className={styles.projectImage}
               />
               <div className={styles.projectContent}>

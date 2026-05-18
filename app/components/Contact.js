@@ -84,7 +84,7 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Have a project in mind or want to discuss opportunities? I'd love to hear from you. Reach out and let's create something amazing together.
+            Have a project in mind or want to discuss opportunities? I&apos;d love to hear from you. Reach out and let&apos;s create something amazing together.
           </p>
         </div>
 
@@ -227,7 +227,7 @@ const Contact = () => {
               </form>
 
               <p className="text-gray-400 text-sm text-center mt-6">
-                I'll get back to you within 24 hours
+                I&apos;ll get back to you within 24 hours
               </p>
             </div>
           </div>
@@ -235,9 +235,9 @@ const Contact = () => {
 
         {/* CTA Section */}
         <div className={`bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-center transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}>
-          <h3 className="text-2xl font-bold mb-2">Let's Build Something Great Together</h3>
+          <h3 className="text-2xl font-bold mb-2">Let&apos;s Build Something Great Together</h3>
           <p className="text-blue-100 mb-4">
-            Fill out the form above and I'll be in touch with you shortly to discuss your project in detail.
+            Fill out the form above and I&apos;ll be in touch with you shortly to discuss your project in detail.
           </p>
           <p className="text-sm text-blue-200">
             Response time: Within 24 business hours
